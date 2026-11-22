@@ -86,3 +86,60 @@ h1 {
     object-fit: cover;
     border-radius: 12px;
 }
+
+/* Call-to-Action Button */
+.btn {
+    display: inline-block;
+    background-color: #8B0A1A;
+    color: #FFF7F9;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background-color: #B3203A;
+}
+
+/* About and Highlights Sections */
+section:not(.hero) {
+    padding: 60px 8%;
+    margin: 0 auto;
+}
+
+section h2 {
+    color: #8B0A1A;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about {
+    text-align: center;
+}
+
+#about p {
+    max-width: 850px;
+    margin: 10px auto;
+}
+
+#highlights {
+    background-color: #F8D7E0;
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+}
+
+.feature-card {
+    flex: 1;
+    background-color: #FFF7F9;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.feature-card h3 {
+    color: #8B0A1A;
+    margin-bottom: 10px;
+}
